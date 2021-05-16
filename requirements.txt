@@ -1,0 +1,13 @@
+pytest
+pytest-xdist
+selenium==3.141.0
+allure-pytest
+mimesis
+xlrd==1.2.0
+requests
+faker
+os
+random
+
+
+
