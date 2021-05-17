@@ -11,7 +11,7 @@ class TestUserAuthorization(BaseClass):
     @allure.feature('Аллюр фича')
     @allure.story('Аллюр стори')
     @allure.severity('critical')
-    def test_assert_the_main_page(self):
+    def test_user_authorization(self):
 
         with allure.step("Авторизация зарегистрированным пользователем на сайте 'http://automationpractice.com'"):
             data_test = Data()

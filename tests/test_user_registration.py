@@ -11,7 +11,7 @@ class TestUserRegistration(BaseClass):
     @allure.feature('Аллюр фича')
     @allure.story('Аллюр стори')
     @allure.severity('critical')
-    def test_assert_the_main_page(self):
+    def test_user_registration(self):
 
         with allure.step("Регистрация нового пользователя на сайте 'http://automationpractice.com'"):
 

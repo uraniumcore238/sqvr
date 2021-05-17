@@ -1,6 +1,8 @@
 import requests
 from self import self
 
+from utilities.BaseClass import BaseClass
+
 
 class TestCreateBooking():
 

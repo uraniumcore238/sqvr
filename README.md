@@ -50,3 +50,7 @@ https://docs.qameta.io/allure/
 **-l, --showlocals**: Отображает локальные переменные рядом с трассировкой стека
 
 **-rsxX**: чтобы отмечать, какие тесты skipped, xfailed, или xpassed
+
+В результате должен получиться отчет вида:
+<img src="examples/Screenshot_521.png" alt="user_registration" width="1000">
+<img src="examples/Screenshot_522.png" alt="user_authorization" width="1000">
