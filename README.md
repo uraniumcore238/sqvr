@@ -11,9 +11,9 @@
 **python ru.sqvr/tests --url=Имя площадки --alluredir=ru.sqvr/allure_results**
 
 **Пример:** 
-py.test --browser_name chrome -v -s test_user_authorization.py --alluredir .\ru.sqvr\allure_results
-cd D:\Programming\ru.sqvr\HTMLReports
-allure generate D:\Programming\ru.sqvr\allure_results -c
+py.test --browser_name chrome -v -s test_user_authorization.py --alluredir [путь до папки с проектом]\ru.sqvr\allure_results
+cd [путь до папки с проектом]\ru.sqvr\HTMLReports
+allure generate [путь до папки с проектом]\ru.sqvr\allure_results -c
 
 # Генерация отчета:
 **allure generate allure_results --clean**
