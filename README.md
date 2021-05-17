@@ -8,7 +8,6 @@
 # Запуск:
 
 **pytest ru.sqvr/tests --url=Имя площадки --alluredir=ru.sqvr/allure_results**
-**python ru.sqvr/tests --url=Имя площадки --alluredir=ru.sqvr/allure_results**
 
 **Пример:** 
 py.test --browser_name chrome -v -s test_user_authorization.py --alluredir [путь до папки с проектом]\ru.sqvr\allure_results
