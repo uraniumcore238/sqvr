@@ -1,4 +1,5 @@
-**Установка виртуального окружения и зависимостей**:
+# Установка виртуального окружения и зависимостей:
+
 Выполнить в терминале в главном каталоге проекта (или в терминаме PyCharm):
 - Добавить виртуальное окружение: **python -m venv venv**
 - Активировать окружение: **venv\Scripts\activate.bat**
@@ -9,7 +10,12 @@
 **pytest ru.sqvr/tests --url=Имя площадки --alluredir=ru.sqvr/allure_results**
 **python ru.sqvr/tests --url=Имя площадки --alluredir=ru.sqvr/allure_results**
 
-# Генерация от отчета:
+**Пример:** 
+py.test --browser_name chrome -v -s test_user_authorization.py --alluredir .\ru.sqvr\allure_results
+cd D:\Programming\ru.sqvr\HTMLReports
+allure generate D:\Programming\ru.sqvr\allure_results -c
+
+# Генерация отчета:
 **allure generate allure_results --clean**
 
 **-с, --clean**: Очистка прошлого отчета перед генерацией нового
